@@ -1,5 +1,5 @@
 {
-  "name": "suspense-project",
+  "name": "apollo-hooks-suspense",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
