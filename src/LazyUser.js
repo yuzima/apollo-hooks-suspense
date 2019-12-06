@@ -15,7 +15,6 @@ const emptyData = { randomUser: {
 function LazyUser() {
   const [ getUser, { data } ]= wrapQuery(useLazyGetUser())
   const { randomUser: { name, gender, email } } = data || emptyData
-
   const handleClick = () => {
     getUser()
   }
