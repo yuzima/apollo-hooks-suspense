@@ -9,8 +9,8 @@
     "apollo-link-http": "^1.5.16",
     "graphql": "^14.5.8",
     "graphql-tag": "^2.10.1",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react": "^0.0.0-experimental-b53ea6ca0",
+    "react-dom": "^0.0.0-experimental-b53ea6ca0",
     "react-scripts": "3.3.0"
   },
   "scripts": {

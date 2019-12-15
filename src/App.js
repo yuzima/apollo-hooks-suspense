@@ -1,8 +1,8 @@
-import React, { Suspense } from 'react';
-import './App.css';
+import React, { lazy, Suspense } from 'react';
 import Loading from './Loading'
 import User from './User'
-import LazyUser from './LazyUser'
+import './App.css';
+const LazyUser = lazy(() => import('./LazyUser'))
 
 function App() {
   return (

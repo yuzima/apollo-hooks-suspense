@@ -6,9 +6,10 @@ export const wrapQuery = (result) => {
   // useLazyQuery
   else {
     const [getQuery, queryResult] = result
-    return [(...rest) => {
-      getQuery.call(null, ...rest)
-    }, handleQueryResult(queryResult)]
+    return [
+      (...rest) => { return getQuery.call(null, ...rest) }, 
+      handleQueryResult(queryResult)
+    ]
   }
 }
 
